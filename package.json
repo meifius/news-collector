@@ -1,0 +1,31 @@
+{
+  "name": "collector",
+  "version": "1.0.0",
+  "description": "Colector de Noticias",
+  "main": "collector.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node collector.js",
+    "dev": "cross-env NODE_ENV=development nodemon collector.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meifius/news-collector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meifius/news-collector/issues"
+  },
+  "homepage": "https://github.com/meifius/news-collector#readme",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.5.9",
+    "node-fetch": "^2.6.0",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
